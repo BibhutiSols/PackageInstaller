@@ -1,0 +1,27 @@
+{
+    "name": "bibhuti/installer",
+    "autoload": {
+        "psr-4": {
+            "Bibhuti\\Installer\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ranjan",
+            "email": "ranjan@bibhutisolutions.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bibhuti\\Installer\\Providers\\LaravelInstallerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
