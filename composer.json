@@ -8,6 +8,7 @@
             "src/Helpers/Function.php"
         ]
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Ranjan",
@@ -21,6 +22,8 @@
             ]
         }
     },
+   "minimum-stability": "dev",
+    "prefer-stable" : true,
     "config": {
         "sort-packages": true
     }
